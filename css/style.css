@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     background: #ffffff;
     font-family: 'Inter';
     font-size: 18px;
     color: #ffffff;
     width: 100%;
+    /*overflow-x: hidden; !* Usuwa przewijanie w poziomie *!*/
 }
 
 .section1_bg {
@@ -11,7 +17,6 @@ body {
     color: #fff;
     height: 567px;
     width: 100%;
-    margin: 0 auto;
     align-items: center;
 }
 
@@ -28,7 +33,7 @@ body {
     font-family: 'Inter';
     font-size: 32px;
     font-weight: bolder;
-    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .nav ul {
@@ -39,11 +44,33 @@ body {
     font-family: 'Inter';
     font-size: 16px;
     font-weight: bold;
-    margin: 0;
-    padding 0;
+    padding: 0;
+    margin-right: 200px;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav ul li {
     position: relative;
 }
 
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.hero_text {
+    width: 50%;
+    background: #000;
+}
+
+.hero_image {
+    background-image: url("/img/couch.png");
+    width: 810px;
+    height: 581px;
+}
