@@ -9,7 +9,27 @@ body {
 .section1_bg {
     background: #35736E;
     color: #fff;
-    height: 367px;
+    height: 567px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: bold;
 }
 
 h2.proba {
