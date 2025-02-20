@@ -16,14 +16,13 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .logo {
     font-family: 'Inter';
     font-size: 32px;
     font-weight: bolder;
+    margin-right: 100px;
 }
 
 .menu {
