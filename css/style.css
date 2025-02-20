@@ -1,9 +1,13 @@
 body {
-    background: #000000;
+    background: #ffffff;
     font-family: 'Inter';
     font-size: 18px;
     color: #ffffff;
+    width: auto;
 }
+
+.section1_bg {
+    background: #35736E;
 
 h2.proba {
     color: khaki;
