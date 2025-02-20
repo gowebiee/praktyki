@@ -10,12 +10,19 @@ body {
     background: #35736E;
     color: #fff;
     height: 567px;
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding; 0 20px;
+    align-items: center;
 }
 
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .logo {
@@ -25,14 +32,19 @@ body {
     margin-right: 100px;
 }
 
-.menu {
+.nav ul {
     display: flex;
+    list-style: none;
     flex-direction: row;
+    gap: 20px;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: bold;
+    margin: 0;
+    padding 0;
 }
 
-h2.proba {
-    color: khaki;
+.nav ul li {
+    position: relative;
 }
+
