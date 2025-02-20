@@ -3,7 +3,7 @@ body {
     font-family: 'Inter';
     font-size: 18px;
     color: #ffffff;
-    width: auto;
+    width: 100%;
 }
 
 .section1_bg {
@@ -16,6 +16,8 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .logo {
