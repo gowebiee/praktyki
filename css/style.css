@@ -79,3 +79,30 @@ h1 {
     font-size: clamp(16px, 3vw, 56px);
     line-height: 1.5;
 }
+
+.button_area {
+    display: flex;
+    flex-direction: row;
+}
+
+.button_1 {
+    background: #F9BF29;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+}
+
+.button_1 a {
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
