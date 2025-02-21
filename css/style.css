@@ -13,11 +13,10 @@ body {
 }
 
 .section1_bg {
-    background: #35736E;
+    background: linear-gradient(to right, #3B5D50 40%, #35736E 90%);
     color: #fff;
-    height: 567px;
+    height: 700px;
     width: 100%;
-    align-items: center;
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +26,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -44,7 +42,7 @@ body {
     flex-direction: row;
     gap: 20px;
     font-family: 'Inter';
-    font-size: 16px;
+    font-size: clamp(18px, 1vw, 21px);
     font-weight: bold;
     padding: 0;
     margin-right: 200px;
@@ -67,15 +65,17 @@ nav ul a {
 }
 
 .hero_text {
-    width: 50%;
-    background: #35736E;
-    color: #fff;
-    height: 300px;
-    position: absolute;
+    flex: 1;
+    margin-left: 100px;
 }
 
 .hero_image {
-    background-image: url("/img/couch.png");
-    width: 810px;
-    height: 581px;
+    flex: 1;
+    resize: both;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-size: clamp(16px, 3vw, 56px);
+    line-height: 1.5;
 }
