@@ -163,6 +163,7 @@ h1 {
     color: #000;
     flex-direction: column;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 .image_product_showcase {
@@ -185,7 +186,7 @@ h1 {
     
 }
 
-.chair {
+.chair_1, .chair_2, .chair_3  {
     font-family: 'Inter';
     font-size: 16px;
     color: #000;
@@ -193,4 +194,35 @@ h1 {
     text-wrap: normal;
     text-align: center;
 }
+
+.img_product_3 {
+    margin-bottom: 21px;
+    
+}
+
+.button_explore {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 50px;
+    width: 122px;
+    margin: 0;
+    border: 1px solid #2f2f2f;
+    background-color: #2f2f2f;
+    text-align: center;
+    align-content: center;
+}
+
+.button_explore a {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
 
