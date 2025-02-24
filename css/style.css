@@ -289,9 +289,16 @@ li {
 .chairs {
     background-color: #eff2f1;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center; /* Wyrównanie w pionie */
+    gap: 15px; /* Odstęp między obrazkiem a tekstem */
+    max-width: 300px; /* Maksymalna szerokość karty */
 }
 
 .text_chairs_1, .text_chairs_2, .text_chairs_3 {
@@ -312,11 +319,14 @@ p.chairs {
     font-size: 14px;
     color: #6a6a6a;
     font-weight: normal;
+    display: flex;
+    flex-direction: column;
 }
 
 .img_chairs_1, .img_chairs_2, .img_chairs_3 {
     height: 125px;
     width: 91px;
+    border-radius: 10px;
     
 
 }
