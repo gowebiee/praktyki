@@ -150,7 +150,7 @@ h1 {
 }
 
 .product_showcase {
-    background-color: #fff;
+    background-color: #eff2f1;
     height: 700px;
     width: 100%;
     display: flex;
@@ -231,6 +231,7 @@ h1 {
 .interior {
     display: flex;
     flex-direction: row;
+    background-color: #eff2f1;
     
 }
 
@@ -285,5 +286,37 @@ li {
     flex-direction: row;
 }
 
+.chairs {
+    background-color: #eff2f1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
 
+.text_chairs_1, .text_chairs_2, .text_chairs_3 {
+    display: flex;
+    flex-direction: column;
+}
 
+h2.chairs {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+p.chairs {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: normal;
+}
+
+.img_chairs_1, .img_chairs_2, .img_chairs_3 {
+    height: 125px;
+    width: 91px;
+    
+
+}
