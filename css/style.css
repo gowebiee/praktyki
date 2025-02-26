@@ -232,6 +232,7 @@ h1 {
     display: flex;
     flex-direction: row;
     background-color: #eff2f1;
+    align-items: center;
     
 }
 
@@ -290,14 +291,14 @@ li {
     background-color: #eff2f1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 300px;
 }
 
 .card {
     display: flex;
     align-items: center; /* Wyrównanie w pionie */
-    gap: 15px; /* Odstęp między obrazkiem a tekstem */
+    /* Odstęp między obrazkiem a tekstem */
     max-width: 300px; /* Maksymalna szerokość karty */
 }
 
@@ -311,6 +312,7 @@ h2.chairs {
     font-size: 14px;
     color: #000;
     font-weight: bold;
+    justify-content: flex-start;
     
 }
 
@@ -326,7 +328,91 @@ p.chairs {
 .img_chairs_1, .img_chairs_2, .img_chairs_3 {
     height: 125px;
     width: 91px;
-    border-radius: 10px;
     
+}
 
+.card a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: bold;
+    color: #6a6a6a;
+}
+
+.blog {
+    background-color: #eff2f1;
+}
+
+.blog_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+div.header_text {
+    font-family: 'Inter';
+    font-size: 34px;
+    font-weight: bold;
+    color: #2f2f2f;
+}
+
+.all_posts a {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: bold;
+    color: #2f2f2f;
+    text-decoration: underline;
+    text-decoration-color: #2f2f2f;
+    
+}
+
+.blog_img {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+
+.blog_text {
+    display: flex;
+    flex-direction: row;
+}
+
+h2.blog_text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: bold;
+    color: #2f2f2f; 
+}
+
+p.blog_text {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: bold;
+    color: #2f2f2f; 
+}
+
+
+.blog_text_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_text_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_text_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: lighter;
+    color: #2f2f2f; 
 }
