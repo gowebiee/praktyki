@@ -300,6 +300,7 @@ li {
     align-items: center; /* Wyrównanie w pionie */
     /* Odstęp między obrazkiem a tekstem */
     max-width: 300px; /* Maksymalna szerokość karty */
+    gap: 10px;
 }
 
 .text_chairs_1, .text_chairs_2, .text_chairs_3 {
