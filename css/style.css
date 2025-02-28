@@ -15,7 +15,7 @@ body {
 .section1_bg {
     background: linear-gradient(to right, #3B5D50 40%, #35736E 90%);
     color: #fff;
-    height: 600px;
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@ h1 {
 }
 
 .text_product_showcase {
-    flex: 2;
+    flex: 1;
     color: #000;
     flex-direction: column;
     margin-left: 100px;
@@ -233,15 +233,12 @@ h1 {
     flex-direction: row;
     background-color: #eff2f1;
     align-items: center;
-    
+    justify-content: center;
 }
 
 .interior_img {
-    display: flex;
-    height: 514px;
-    width: 422px;
-    margin-left: 150px; 
-    margin-right: 400px;
+
+    margin-left: 150px;
     margin-bottom: 35px;
 }
 
@@ -267,10 +264,10 @@ p.interior_text {
     font-size: 14px;
     color: #6a6a6a;
     font-weight: normal;
-    
+    width: 800px;
 }
 
-li {
+.list {
     margin-left: 40px;
     margin-right: 100px;
     margin-top: 30px;
@@ -280,11 +277,13 @@ li {
 .list_1 {
     display: flex;
     flex-direction: row;
+    list-style: circle;
 }
 
 .list_2 {
     display: flex;
     flex-direction: row;
+    list-style: circle;
 }
 
 .chairs {
@@ -301,6 +300,8 @@ li {
     /* Odstęp między obrazkiem a tekstem */
     max-width: 300px; /* Maksymalna szerokość karty */
     gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .text_chairs_1, .text_chairs_2, .text_chairs_3 {
@@ -327,8 +328,7 @@ p.chairs {
 }
 
 .img_chairs_1, .img_chairs_2, .img_chairs_3 {
-    height: 125px;
-    width: 91px;
+
     
 }
 
@@ -342,6 +342,7 @@ p.chairs {
 
 .blog {
     background-color: #eff2f1;
+    padding-bottom: 200px;
 }
 
 .blog_header {
@@ -444,17 +445,19 @@ footer {
     align-items: center;
 }
 
-.box_1, .box_2 {
-    font-family: 'Inter';
-    font-size: 14px;
-    font-weight: medium;
-    color: #2f2f2f; 
-    border: 1px solid #c4c4c4;
-    border-radius: 10px;
+.input_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-div.furni {
-    padding-left: 300px;
+.input_container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 262px;
+    height: 45px;
 }
 
 h2.furni {
@@ -471,7 +474,7 @@ h2.furni {
     font-size: 14px;
     font-weight: normal;
     color: #6a6a6a;
-    padding-right: 300px;
+    gap: 100px;
 }
 
 .footer_3 {
@@ -483,7 +486,6 @@ h2.furni {
     color: #6a6a6a;
     justify-content: space-between;
     padding-left: 300px;
-    margin-top: 200px;
 }
 
 .furni_right {
@@ -493,3 +495,25 @@ h2.furni {
     padding-right: 300px;
 }
 
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer_nav_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_nav_item {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #6A6A6A;
+}
+
+.footers {
+    padding: 50px;
+    padding-left: 250px;
+}
